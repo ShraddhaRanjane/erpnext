@@ -38,7 +38,18 @@ In this form,
 You can also update the starting point of a series by entering the series
 name and the starting point in the “Update Series” section.
 
-### 3. Example
+### 3.Custom Field in Naming Series
+
+Some companies prefers to make use of "short-codes" for suppliers, i.e. WN for company "Web Notes" that later can be used in naming series for quick identication.
+
+  Example:
+
+      A custom field "Vendor ID" is created under Document: Supplier.
+      Then under Naming Series, we should allow something like
+        PO-.YY.MM.-.{vendor_id}.-.#####
+        Resulting in "PO-1503-WN-00001"
+
+### 4. Example:
 
 See how to set the naming series
 
